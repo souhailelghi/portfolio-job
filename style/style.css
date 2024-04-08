@@ -19,6 +19,9 @@
     gap: 7em;
     padding: 30px 12% 0;
 }
+span{
+    color: rgb(19, 132, 147);
+}
 
 .home-content{
     max-width: 800px;
@@ -139,8 +142,14 @@
 }
 /* contact me */
 
-
+#contact{
+    padding-top: 50px;
+    padding-bottom: 300px;
+    background-color: rgb(241, 241, 241);
+}
 .contact-form h2{ 
+    padding-top: 70px;
+    padding-bottom: 30px;
     text-align: center;
     margin-top: 3em;
     margin-top: 1em;
@@ -149,6 +158,7 @@
 }
 
 .contact-form form{
+    
     max-width: 50em;
     margin: 1rem auto;
     text-align: center;
@@ -174,13 +184,17 @@
 
 }
 
+
+
+
+
 /* footer */
 
 .footer{
     position: relative;
     bottom: 0;
     width: 100%;
-    padding: 40px 0;
+    padding: 15px 0;
     background-color:rgb(36, 65, 83);
 
 
@@ -250,20 +264,26 @@ box-shadow: inset 0 0 10px rgb(11, 11, 59),0 0 10px rgb(11, 11, 59);
 }
 
 /* education */
+.section{
+    background-color: rgb(241, 241, 241);
+}
 
 .cont-card {
     display: flex;
     justify-content: space-between;
-    width: 60px;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    width: 600px;
+    background-color: rgb(241, 241, 241);
 }
 
 .card1 {
-    background-color: white;
-    box-shadow: 0px 4px 8px rgb(241, 241,241);
-    border-radius: 8px;
+
+background-color: rgb(241, 241, 241);
     padding: 20px;
     width: 250px;
-    margin-right: 20px; /* Add margin between cards */
+    margin-right: 20px;
 }
 
 .card1:last-child {
@@ -280,7 +300,9 @@ box-shadow: inset 0 0 10px rgb(11, 11, 59),0 0 10px rgb(11, 11, 59);
 }
 
 
-.cont-card {
+.cont-cr {
+    padding-top: 150px;
+    padding-bottom: 250px;
     display: flex;
     flex-wrap: wrap; 
     justify-content: space-between;
@@ -291,7 +313,6 @@ box-shadow: inset 0 0 10px rgb(11, 11, 59),0 0 10px rgb(11, 11, 59);
 
 .card {
 
-   
     border-radius: 8px;
     padding: 20px;
     width: calc(25% - 20px); /* 25% width minus margin to fit 4 cards in a row */
@@ -307,6 +328,9 @@ box-shadow: inset 0 0 10px rgb(11, 11, 59),0 0 10px rgb(11, 11, 59);
     border-radius: 8px;
     margin-bottom: 10px;
 }
+
+
+
 
 /* responsive */
 body {
