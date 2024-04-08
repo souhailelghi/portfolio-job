@@ -1,226 +1,262 @@
- 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>souhail-elghiouane</title>
-    <link rel="stylesheet" href="style/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
-<body>
+  </head>
 
-    <!-- nav bar  -->
-    <header class="header">
-<a href="#" class="logo"><span>Sou</span>hail</a>
-<nav class="navbar">
-    <a href="#home" class="active">Home</a>
-    <a href="#about" >About</a>
-    <a href="#expereince" >expereince</a>
-    <a href="#" >Projects</a>
-    <a href="#skills" >skills</a>
-    <a href="#Education"  >Education</a>
-</nav>
+  <body>
+   
+    
+    <div
+    class="res" id="myres"
+      style="background-color: rgb(36, 65, 83)"
+    >
+  </div>
 
-<a href="#contact" class="contact" >Contact Me</a>
-    </header>
-        <!-- final nav bar  -->
 
-    <!-- section home 1  -->
-    <section class="home" id="home">
-        <div class="home-content">
-            <h3>Hi</h3>
-            <h1>I'm <span>Souhail <br></span>Elghiouane</h1>
-            <p>I'm passionate about the world of computer development.</p>
-            <div class="btn-box">
-                <button class="btn-1" id="downloadBtn">download cv</button>
-                <a class="btn-2" href="#expereince">expereince</a>
+    <hr />
 
-            </div>
-        </div>
 
-        <div class="img-box">
-            <img src="img/image.jpeg" alt="image">
-        </div>
-    </section>
-    <!-- end section home   -->
+ 
 
 
 
-<!-- section about 2  -->
-<section class="about" id="about">
-    <div class="about-img">
-<img src="img/image.jpeg" alt="image 2 about">
+
+    <!-- home section -->
+    <div id="home" style="background-color: rgb(158, 93, 93)">
+     <!-- section home 1  -->
+ <section class="home" id="home" class="section">
+  <div class="home-content">
+      <h3>Hi</h3>
+      <h1>I'm Souhail Elghiouane</h1>
+      <p>I'm passionate about the world of computer development.</p>
+      <div class="btn-box">
+          <button class="btn-1" id="downloadBtn">download cv</button>
+          <a class="btn-2" href="#" onclick="showSection('expereince')">expereince</a>
+
+      </div>
+  </div>
+
+  <div class="img-box">
+      <img src="img/image.jpeg" alt="image">
+  </div>
+</section>
+<!-- end section home   -->
     </div>
 
-<div class="about-content">
-    <h2 class="heading">About <span>Me</span></h2>
-    <h3>Full Stack <span> Developer</span></h3>
-    <p>I'm passionate about the world of computer development. I graduated from high school with a bachelor's degree in life and earth sciences and a diploma in computer development..</p>
-<a href="#expereince" class="btn-2">Expereince</a>
-</div>
+    <!-- about section -->
+    <div
+      id="about"
+      class="section"
+      style="background-color: rgb(177, 138, 138)"
+    >
+      <!-- section about 2  -->
+<div class="about" id="about" class="section">
+  <div class="about-img">
+  <img src="img/img2.png" alt="image 2 about">
+  </div>
+  
+  <div class="about-content">
+  <h2 class="heading">About <span>Me</span></h2>
+  <h3>Full Stack <span> Developer</span></h3>
+  <p>I'm passionate about the world of computer development. I graduated from high school with a bachelor's degree in life and earth sciences and a diploma in computer development..</p>
+  <a href="#" onclick="showSection('expereince')" class="btn-2">Expereince</a>
+  </div>
+  
+  </div>
+  <!-- endsection about   -->
+    </div>
 
-</section>
-<!-- endsection about   -->
 
 
-<!-- section expereince   -->
+
+
+
+    <!-- expereince section -->
+    <div id="expereince" class="section">
+ 
+  <!-- section expereince   -->
 <section class="about" id="expereince">
-       <!-- Your other HTML content here -->
 
-       <video width="640" height="360" controls>
-        <source src="video/example.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
 
-    <!-- Your other HTML content here -->
+  <video width="640" height="360" controls>
+   <source src="video/example.mp4" type="video/mp4">
+   Your browser does not support the video tag.
+</video>
+
+
 
 <div class="about-content">
-    <h2 class="heading">Expe<span>reince</span></h2>
-    <p>As a Front-End Developer at Astuza IT, I recently worked on an exciting project
-        project for the Rectorat de Rennes, in France. I designed and developed a web application
-        to create a catalog of applications and APIs. My role included
-        also included setting up a data collection system, integrating alert functionalities
-        alert functionalities on RocketChat, and managing build and deployment pipelines
-        pipelines on GitLab. Technologies I've used include React, Node.js, Express.js, Git,
-        GitLab CI/CD, Actuator, and TypeScript.</p>
+<h2 class="heading">Expe<span>reince</span></h2>
+<p>As a Front-End Developer at Astuza IT, I recently worked on an exciting project
+   project for the Rectorat de Rennes, in France. I designed and developed a web application
+   to create a catalog of applications and APIs. My role included
+   also included setting up a data collection system, integrating alert functionalities
+   alert functionalities on RocketChat, and managing build and deployment pipelines
+   pipelines on GitLab. Technologies I've used include React, Node.js, Express.js, Git,
+   GitLab CI/CD, Actuator, and TypeScript.</p>
 
 </div>
 
 </section>
 <!-- endsection expereince   -->
-
-
-<!-- section Education   -->
-<section class="about" id="Education">
-
-
-<div class="about-content"><h2>About <span>Education</span></h2> </div>
-<div class="cont-card">
-    
-    <div class="card1" >
-        <img src="img//ed/bac.jpg" alt="Card 2 Image" width="250 " height="200">
-        <h2>bac</h2>
-        <p>Baccalauréat Sciences de la vie et de la terre (s.v.t) , lycée d’idriss I , Kenitra 2017.</p>
     </div>
-    <div class="card1">
-        <img src="img/ed/ista.jpg" alt="Card 1 Image"  width="250 " height="200">
-        <h2>ista</h2>
-        <p>Techniques de Développement Informatique .
-            ( Institut spécialisé de Technologie Appliquée , Kenitra 2022 ).</p>
-    </div>
-</div>
-
-</section>
-<!-- endsectionEducation   -->
-
-<!-- section skills   -->
-
-<section class="about" id="skills">
-    <div class="about-content"><h2>About <span>skills</span></h2> 
-    <section class="about" id="Education">
 
 
-       
-        <div class="cont-card">
-            
-            <div class="card">
-                <img src="img/tech/html.png" alt="Card 2 Image" width="100" height="200">
-           
-               
-            </div>
-            <div class="card">
-                <img src="img/tech/css.png" alt="Card 2 Image" width="100" height="200">
-              
-               
-            </div>
-            <div class="card">
-                <img src="img/tech/js.png" alt="Card 2 Image" width="100" height="200">
-               
-               
-            </div>
-            <div class="card">
-                <img src="img/tech/ts.png" alt="Card 2 Image" width="100" height="200">
-              
-               
-            </div>
-            <div class="card">
-                <img src="img/tech/node.png" alt="Card 2 Image" width="100" height="200">
-               
-               
-            </div>
-            <div class="card">
-                <img src="img/tech/express.png" alt="Card 2 Image" width="100" height="200">
+
+
+
+    <!-- Education section -->
+    <div id="Education" class="section">
+
+  <div class="cont-card"  >
       
-               
-            </div>
-            <div class="card">
-                <img src="img/tech/git.png" alt="Card 2 Image" width="100" height="200">
-               
-               
-            </div>
-            <div class="card">
-                <img src="img/tech/react.png" alt="Card 2 Image" width="100" height="200">
-               
-               
-            </div>
-        
-        
+      <div class="card1" >
+          <img src="img//ed/bac.jpg" alt="Card 2 Image" width="250 " height="200">
+          <h2>bac</h2>
+          <p>Baccalauréat Sciences de la vie et de la terre (s.v.t) , lycée d’idriss I , Kenitra 2017.</p>
+      </div>
+      <div class="card1">
+          <img src="img/ed/ista.jpg" alt="Card 1 Image"  width="250 " height="200">
+          <h2>ista</h2>
+          <p>Techniques de Développement Informatique .
+              ( Institut spécialisé de Technologie Appliquée , Kenitra 2022 ).</p>
+      </div>
 
-
-           
+      
+  </div>
+  
 
 
 
-           
-            
-        </div>
-        
-        </section>
-
-</section>
-<!-- endsectionEducation   -->
+  <!-- endsectionEducation   -->
+    </div>
 
 
-<!-- section form  -->
-<section class="contact-form" id="contact">
-    <h2 class="contact-me">Contact <span>Me</span></h2>
-    <form action="#">
-        <div class="input-box">
-            <input type="text" placeholder="full Name">
-            <input type="email" placeholder="Email">
-
-        </div>
-        <div class="input-box">
-        
-            <input type="text" placeholder="Subject">
-
-        </div>
-
-
+        <!-- skills section -->
+        <div id="skills" class="section">
        
-        <input type="submit" value="Send" class="btn-2">
-    </form>
+    
+
+
+
+ 
+
+
+
+     
+      <div class="cont-card" class="about" id="Education" id="skills" >
+          
+          <div class="card">
+              <img src="img/tech/html.png" alt="Card 2 Image" width="100" height="200">
+         
+             
+          </div>
+          <div class="card">
+              <img src="img/tech/css.png" alt="Card 2 Image" width="100" height="200">
+            
+             
+          </div>
+          <div class="card">
+              <img src="img/tech/js.png" alt="Card 2 Image" width="100" height="200">
+             
+             
+          </div>
+          <div class="card">
+              <img src="img/tech/ts.png" alt="Card 2 Image" width="100" height="200">
+            
+             
+          </div>
+          <div class="card">
+              <img src="img/tech/node.png" alt="Card 2 Image" width="100" height="200">
+             
+             
+          </div>
+          <div class="card">
+              <img src="img/tech/express.png" alt="Card 2 Image" width="100" height="200">
+    
+             
+          </div>
+          <div class="card">
+              <img src="img/tech/git.png" alt="Card 2 Image" width="100" height="200">
+             
+             
+          </div>
+          <div class="card">
+              <img src="img/tech/react.png" alt="Card 2 Image" width="100" height="200">
+             
+             
+          </div>
+      
+      
+
+
+         
+
+
+
+         
+          
+      </div>
+      
+
+
+
+<!-- endsectionEducation   -->
+        </div>
+
+
+
+
+
+
+
+
+    
+    <!-- contact section -->
+    <div id="contact" class="section">
+<section class="contact-form" id="contact">
+  <h2 class="contact-me">Contact <span>Me</span></h2>
+  <form action="#">
+      <div class="input-box">
+          <input type="text" placeholder="full Name">
+          <input type="email" placeholder="Email">
+
+      </div>
+      <div class="input-box">
+      
+          <input type="text" placeholder="Subject">
+
+      </div>
+
+
+     
+      <input type="submit" value="Send" class="btn-2">
+  </form>
 
 </section>
 <!-- end section form  -->
+    </div>
 
-<!-- section footer  -->
+    <!-- section footer  -->
 <footer class="footer">
-<div class="social">
-    <a href="https://github.com/souhailelghi" target="_blank"><i class='bx bxl-github'></i></a>
-    <a href="https://www.linkedin.com/in/souhail-elghiouane-82142b2a7/" target="_blank" ><i class='bx bxl-linkedin-square'></i></a>
-    
-</div>
+  <div class="social">
+      <a href="https://github.com/souhailelghi" target="_blank"><i class='bx bxl-github'></i></a>
+      <a href="https://www.linkedin.com/in/souhail-elghiouane-82142b2a7/" target="_blank" ><i class='bx bxl-linkedin-square'></i></a>
+      
+  </div>
+  
+  
+  <P class="copyright">Copyright 2024 <span>Souhail</span></P>
+  </footer>
+  
 
-
-<P class="copyright">Copyright 2024 <span>Souhail</span></P>
-</footer>
-
-
-<script src="main/main.js">
-
-
-</script>
-</body>
+    <script src="main/main.js"></script>
+  </body>
 </html>
