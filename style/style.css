@@ -287,7 +287,7 @@ background-color: rgb(241, 241, 241);
 }
 
 .card1:last-child {
-    margin-right: 0; /* Remove margin from the last card to prevent extra space */
+    margin-right: 0; 
 }
 
 
@@ -315,8 +315,8 @@ background-color: rgb(241, 241, 241);
 
     border-radius: 8px;
     padding: 20px;
-    width: calc(25% - 20px); /* 25% width minus margin to fit 4 cards in a row */
-    margin-bottom: 20px; /* Add some bottom margin for spacing .. */
+    width: calc(25% - 20px);
+    margin-bottom: 20px; 
 }
 
 
